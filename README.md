@@ -34,8 +34,8 @@ This set of scripts ships with three files:
 
 - backup.dist.php--This is an example of how to call the backup functions
 - include/
-- -backup.inc.php--All the backup functions are in here
-- -S3.php--This is the library to access Amazon S3
+    - backup.inc.php--All the backup functions are in here
+    - S3.php--This is the library to access Amazon S3
  
 ## (optional) Daily backup deletion schedule
 A unique feature of this script is the way it will retain (and eventually delete) old backups to conserve space, and yet maintain significant backup history. In this method you will have the following full backups:
@@ -69,11 +69,11 @@ There are several constants that may be set to change the function of the backup
 - schedule - string - One of "hourly", "daily", or "weekly". Required.
  
 ## Optional
-- awsEndpoint - string - Set the endpoint URL of the server that speaks the S3 API. Default is s3.amazonaws.com. Optional.
-- debug - boolean - Whether or not to emit debug messages. Default is false. Optional.
-- mysqlDumpOptions - string - Any options that you want to send to the mysqldump command during backups. Optional.
-- schedule - string - One of: 'weekly', 'daily', or 'hourly' - Tells the script how often you are backing up so that it can do the right thing to remove old backups.
-- timezone - string - System timezone, default is 'America/Los_Angeles', Optional.
+- awsEndpoint (string) - Set the endpoint URL of the server that speaks the S3 API. Default is s3.amazonaws.com. Optional.
+- debug (boolean) - Whether or not to emit debug messages. Default is false. Optional.
+- mysqlDumpOptions (string) - Any options that you want to send to the mysqldump command during backups. Optional.
+- schedule (string) - One of: 'weekly', 'daily', or 'hourly' - Tells the script how often you are backing up so that it can do the right thing to remove old backups.
+- timezone (string) - System timezone, default is 'America/Los_Angeles', Optional.
  
 ## Requirements
 - PHP 5 or higher
