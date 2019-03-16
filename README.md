@@ -90,3 +90,7 @@ This program is licensed under the MIT license. See the include/backup.inc.php f
 
 ##ToDo
 Add ability to use S3 Reduced Redundancy Storage to save money.
+
+Thank you,
+Ujwal Abhishek,
+[ujwalabhishek@gmail.com](mailto:ujwalabhishek@gmail.com)
