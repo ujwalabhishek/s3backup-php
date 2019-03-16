@@ -7,7 +7,7 @@ I've used this program in production for over a year with no problems. But, your
 ## Features
 - Simple to use
 - Backups all databases on a MySQL server
-- Backups and compresses (using bzip2) directories and files
+- Backups and compresses (using zip) directories and files
 - Uses URL type storage keys, so it's easy to browse the backup bucket
 - (optionally) Removes old backups according to a grandfather-father-son based schedule
 
