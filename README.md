@@ -12,7 +12,7 @@ I've used this program in production for over a year with no problems. But, your
 - (optionally) Removes old backups according to a grandfather-father-son based schedule
 
 ## Installation
-- Copy the backup.dist.php file to a new file name, like backup.php
+- Copy the backup.dist.php file to a new file name, like index.php
 - Add your Amazon AWS access key, password, and bucket in the backup.php file provided.
 - Customize the files and database servers that are backed up.
 - You may optionally list any number of .php files underneath the "backups" folder. Each one will be executed.
